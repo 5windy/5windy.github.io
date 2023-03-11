@@ -28,6 +28,7 @@ function searchRequest(query, page) {
         },
     })
         .done((response) => {
+            console.log(response);
             // container 안에 
 
             /*
